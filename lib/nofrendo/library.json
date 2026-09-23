@@ -1,0 +1,16 @@
+{
+  "name": "nofrendo-esp32-core",
+  "version": "0.1.0",
+  "description": "Nofrendo NES emulator core adapted from Espressif esp32-nesemu",
+  "license": "GPL-2.0",
+  "build": {
+    "srcDir": "src",
+    "flags": [
+      "-Isrc",
+      "-Isrc/cpu",
+      "-Isrc/libsnss",
+      "-Isrc/nes",
+      "-Isrc/sndhrdw"
+    ]
+  }
+}
